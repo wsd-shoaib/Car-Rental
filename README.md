@@ -1,12 +1,57 @@
-# React + Vite
+# 🚗 CarExpress - Car Rental Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site: [https://carexpress-rental.netlify.app](https://carexpress-rental.netlify.app)
 
-Currently, two official plugins are available:
+CarExpress is a modern and responsive car rental web application built using React. Users can explore different types of vehicles, learn about services, and easily navigate through the website to book or rent a car.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Bootstrap / Custom CSS
+- Netlify (for deployment)
+
+---
+
+## 📌 Features
+
+- 🏠 **Responsive Home Page** with attractive UI
+- 🚗 **Car Category Sections** (Sedan, SUV, Luxury, etc.)
+- 📃 **About Us & Services** Page
+- 📞 **Contact Page** with info
+- 🔗 Smooth Navigation using React Router
+- 💻 Fully responsive design (mobile, tablet, desktop)
+- 🚀 Deployed on Netlify
+
+## 📁 Folder Structure
+
+Car Rental /
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.js
+│ └── index.js
+├── package.json
+└── README.md
+
+---
+
+## ⚙️ Installation & Run Locally
+
+```bash
+git clone https://github.com/wsd-shoaib/Car-Rental.git
+cd Car Rental
+npm install
+npm start
+
+npm run build
+
+
+🌐 Deployment
+This project is deployed on Netlify.
+Visit: https://carexpress-rental.netlify.app
+
+```
