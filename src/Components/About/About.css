@@ -1,0 +1,106 @@
+.about-area {
+  padding: 3rem 0;
+  background-color: rgba(247, 252, 249, 0.986);
+}
+
+.dark .about-area {
+  background-color: rgb(31, 47, 56);
+  color: #f5f5f5;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.both-side-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 5rem;
+  gap: 5rem;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-btn {
+  border: none;
+  background-color: rgb(2, 207, 81);
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.7rem;
+  color: #f5f5f5;
+  transition: 0.3s ease;
+}
+.about-btn a {
+  color: inherit;
+  text-decoration: none;
+}
+.about-btn:hover {
+  background-color: rgb(218, 148, 20);
+}
+
+.video-area {
+  position: relative;
+  width: 78%;
+  margin: auto;
+}
+.video-area img {
+  width: 100%;
+  height: 330px;
+  border-radius: 0.3rem;
+  object-fit: cover;
+}
+.video-icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(31, 231, 74);
+  font-size: 30px;
+}
+
+.About-Video-series {
+  background-color: rgba(44, 37, 37, 0.801);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.About-Video-series span {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .both-side-area {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  .video-area {
+    width: 100%;
+  }
+  .video-area img {
+    height: 230px;
+  }
+}

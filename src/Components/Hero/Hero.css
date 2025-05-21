@@ -1,0 +1,86 @@
+section {
+  padding: 11rem 0rem 5rem 0rem;
+  background-color: rgb(255, 250, 206);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.dark section {
+  background-color: rgb(10, 11, 17);
+  color: #fff;
+}
+.hero-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  gap: 3rem;
+  margin: auto;
+}
+.banner img {
+  width: 100%;
+}
+.banner {
+  order: 2;
+  width: 100%;
+}
+
+.hero-title {
+  order: 1;
+  text-align: start;
+  font-family: "Winky Rough", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-title button {
+  background-color: rgb(218, 33, 73);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  color: #fff;
+  transition: 0.4s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-title button a {
+  color: inherit;
+  text-decoration: none;
+}
+.dark .hero-title button {
+  background-color: orange;
+}
+.hero-title button:hover {
+  background-color: rgb(163, 25, 55);
+}
+
+@media screen and (max-width: 750px) {
+  .hero-area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner {
+    order: 1;
+    width: 100%;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .hero-title {
+    order: 2;
+    padding: 0.5rem;
+  }
+  .darkmode {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    padding: 7rem 0rem 4rem 0rem;
+  }
+  .hero-area {
+    width: 95%;
+  }
+}
